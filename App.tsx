@@ -12,20 +12,20 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen selection:bg-[#39FF14] selection:text-black">
+    <div className="min-h-screen selection:bg-[#39FF14] selection:text-black overflow-x-hidden">
       {/* Notebook Grid Layer */}
       <div className="fixed inset-0 dot-grid pointer-events-none z-0"></div>
-      
+
       {/* Scanning Line Overlay */}
       <div className="fixed inset-0 scanning-line pointer-events-none z-1"></div>
 
       <Navbar />
-      
+
       <main className="relative z-10">
         <section id="hero">
           <Hero />
         </section>
-        
+
         <section id="about" className="py-32 border-y border-white/5 bg-black/40">
           <About />
         </section>
