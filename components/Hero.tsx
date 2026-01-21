@@ -35,10 +35,6 @@ const Hero: React.FC = () => {
                 <span className="text-white"> Scale efficiency by 10x</span> by deploying institutional-grade Data, AI, and Creative infrastructure.
               </p>
 
-              <p className="text-base md:text-lg text-white/40 leading-relaxed font-light">
-                We build the technical primitives that allow companies to automate distribution, synthesize creative, and unify data layers into a single, sovereign intelligence stack.
-              </p>
-
               <div className="flex flex-wrap gap-6 items-center pt-4">
                 <button className="relative group overflow-hidden bg-white text-black px-12 py-5 text-[11px] font-bold tracking-[0.2em] uppercase transition-all hover:bg-[#39FF14]">
                   <span className="relative z-10">Book Meeting</span>
